@@ -55,7 +55,7 @@ public class SpecificDay extends AppCompatActivity {
         }
         else
         {
-            //pozostaw Edytuj
+
         }
 
         if(!doesDatabaseExist(getApplicationContext(), "MY_TEST_DB"))
