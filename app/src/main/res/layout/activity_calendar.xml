@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalendarActivity">
+
+    <TextView
+        android:id="@+id/yearCount"
+        android:layout_width="146dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@color/colorBlue"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="245dp"
+        android:layout_height="175dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/cal1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal2"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal3"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal4"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="4"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal5"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/cal6"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="6"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal7"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="7"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal8"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="8"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal9"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="9"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal10"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="10"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal11"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="11"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal12"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="12"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/cal13"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="13"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal14"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="14"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal15"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="15"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal16"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="16"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal17"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:autoText="false"
+                android:gravity="center"
+                android:text="17"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal18"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="18"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal19"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="19"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/cal20"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="20"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal21"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="21"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal22"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="22"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal23"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="23"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal24"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="24"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal25"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="25"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal26"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="26"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/cal27"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="27"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal28"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="28"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal29"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="29"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal30"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="30"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cal31"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:text="31"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/monthBack"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691"
+        app:srcCompat="@drawable/arrowleft" />
+
+    <ImageView
+        android:id="@+id/monthNext"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701"
+        app:srcCompat="@drawable/arrowright" />
+
+    <ImageView
+        android:id="@+id/yearBack"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627"
+        app:srcCompat="@drawable/arrowleft" />
+
+    <ImageView
+        android:id="@+id/yearNext"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627"
+        app:srcCompat="@drawable/arrowright" />
+
+    <TextView
+        android:id="@+id/monthName"
+        android:layout_width="146dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@color/colorBlue"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706" />
+
+    <TextView
+        android:id="@+id/todaysDate"
+        android:layout_width="245dp"
+        android:layout_height="77dp"
+        android:gravity="center"
+        android:textColor="@color/colorBlue"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <Button
+        android:id="@+id/goToSpecificDay"
+        android:layout_width="148dp"
+        android:layout_height="35dp"
+        android:background="@drawable/transparent_button"
+        android:text="Szczegóły dnia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <TextView
+        android:id="@+id/clickedDay"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:textColor="@color/colorBlue"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84" />
+
+    <TextView
+        android:id="@+id/moneySpent"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:textColor="@color/colorBlue"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <Button
+        android:id="@+id/goToSumOfTheMonth"
+        android:layout_width="148dp"
+        android:layout_height="35dp"
+        android:background="@drawable/transparent_button"
+        android:text="Suma miesiąca"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpecificDay">
+
+    <TextView
+        android:id="@+id/daysFromDB"
+        android:layout_width="192dp"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:textColor="@color/colorBlue"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="304dp"
+        android:layout_height="425dp"
+        android:layout_marginTop="104dp"
+        android:longClickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242" />
+
+    <TextView
+        android:id="@+id/sumOfTheDay"
+        android:layout_width="229dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:textColor="@color/colorBlue"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.852" />
+
+    <LinearLayout
+        android:layout_width="341dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92">
+
+        <Button
+            android:id="@+id/deleteDay"
+            android:layout_width="113dp"
+            android:layout_height="35dp"
+            android:background="@drawable/transparent_button"
+            android:fontFamily="@font/asul"
+            android:text="Usuń dzień" />
+
+        <Button
+            android:id="@+id/addOrEdit"
+            style="utton"
+            android:layout_width="113dp"
+            android:layout_height="35dp"
+            android:background="@drawable/transparent_button"
+            android:text="Edytuj" />
+
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="113dp"
+            android:layout_height="35dp"
+            android:background="@drawable/transparent_button"
+            android:text="odśwież" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.simplefinance">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SumMonthActivity"></activity>
+        <activity
+            android:name=".TransitionalActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CalendarActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SpecificDay"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BiometricActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EnterPassword"
+            android:permission="android.permission.USE_BIOMETRIC"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainDesk"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FirstEnterActivity"
+            android:permission="android.permission.USE_BIOMETRIC"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoadingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

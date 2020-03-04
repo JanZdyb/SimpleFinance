@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="370dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/changepassword"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@drawable/transparent_button"
+            android:fontFamily="@font/asul"
+            android:text="Zmień hasło" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/fingButton"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@drawable/transparent_button"
+            android:fontFamily="@font/asul"
+            android:text="Logowanie odciskiem palca" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/changeCurrency"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@drawable/transparent_button"
+            android:fontFamily="@font/asul"
+            android:text="Zmień walutę" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/deleteDatabase"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@drawable/transparent_button"
+            android:fontFamily="@font/asul"
+            android:text="Usuń Wszystkie Dni" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/deleteAccount"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@drawable/transparent_button"
+            android:fontFamily="@font/asul"
+            android:text="Usuń konto" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/darkTheme"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@drawable/transparent_button"
+            android:fontFamily="@font/asul"
+            android:text="Tryb Ciemny" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="56dp"
+        android:layout_height="370dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
