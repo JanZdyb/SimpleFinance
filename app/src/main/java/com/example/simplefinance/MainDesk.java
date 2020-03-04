@@ -126,6 +126,11 @@ public class MainDesk extends AppCompatActivity {
         ACTIVITYEeditor.apply();
     }
 
+    private void siema()
+    {
+
+    }
+
     private int getAddCounterFromDatabase()
     {
         int addCounter = 0;
