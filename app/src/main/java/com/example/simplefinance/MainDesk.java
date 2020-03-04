@@ -131,6 +131,11 @@ public class MainDesk extends AppCompatActivity {
 
     }
 
+    private void hello()
+    {
+
+    }
+
     private int getAddCounterFromDatabase()
     {
         int addCounter = 0;
